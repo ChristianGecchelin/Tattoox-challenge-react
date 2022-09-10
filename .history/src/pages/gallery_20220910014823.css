@@ -1,0 +1,10 @@
+.container-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 16px;
+}
+.container-list__title{
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 216px;
+  height: 282px;
+  background: linear-gradient(180deg, #232526 0%, #414345 100%);
+  border-radius: 8px;
+}
+.container-card__img {
+  width: 189.26px;
+  height: 207.66px;
+  border-radius:50%;
+  margin: 4.17px 13.37px;
+}
+.container-card__name{
+    margin: 0px 51px 9px 16px
+}

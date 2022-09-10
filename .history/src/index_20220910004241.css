@@ -1,0 +1,25 @@
+:root{
+  --main-color:#7FB77E;
+  --secondary-color:#B1D7B4;
+  --third-color:#F7F6DC;
+  --fourth-color:#FFC090;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+html,body{
+  background-color:var(--main-color)
+}
+ul{
+  list-style: none
+}
+a{
+  text-decoration: none;
+  color: var(--fourth-color);
+}

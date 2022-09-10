@@ -1,0 +1,33 @@
+.container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 216px;
+  height: 282px;
+  background: linear-gradient(180deg, #232526 0%, #414345 100%);
+  border-radius: 8px;
+}
+.container-card__img {
+  width: 184px;
+  height: 184px;
+  border-radius:50%;
+  margin: 16px;
+}
+.container-card__name{
+    margin: 0px 0px 9px 16px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.container-card__location{
+    margin: 0px 0px 17px 16.67px;
+    color:white;
+    font-size:1.4rem;
+    font-weight: 400;
+}
+.container-card__location__mira{
+    width: 14.67px;
+    vertical-align: sub;
+    margin-right: 8.67px;
+}
